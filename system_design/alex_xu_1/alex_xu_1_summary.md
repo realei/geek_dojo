@@ -20,4 +20,20 @@
 
 * Non SQL DB: key-value stores, graph stores, column stores, and document stores
 
+* Database replication
 
+### Vertical scaling vs horizontal scaling
+
+* Vertical Scaling
+
+* Horizontal Scaling: LoadBalancer
+
+* web, data, and cache tiers
+
+### Issues 
+
+* availability: failover 
+
+### Failures 
+
+* SPOF: A single point of failure (SPOF) 
