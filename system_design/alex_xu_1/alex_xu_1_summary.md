@@ -14,6 +14,8 @@
 
 * loadbalancer, public ip, private ip
 
+* geoDNS-routed
+
 ### DB:
 
 * SQL DB
@@ -22,6 +24,12 @@
 
 * Database replication
 
+* Database scaling: Vertical Scaling vs Horizontal Scaling (Sharding)
+
+### Micro Services Components:
+
+* Message Queue: Asynchronous Communication
+
 ### Vertical scaling vs horizontal scaling
 
 * Vertical Scaling
@@ -29,6 +37,10 @@
 * Horizontal Scaling: LoadBalancer
 
 * web, data, and cache tiers
+
+* Stateless web tier
+
+### Logging, metrics, automation
 
 ### Issues 
 
