@@ -1,4 +1,4 @@
-# [Airflow Best Practices](https://airflow.apache.org/docs/apache-airflow/stable/best-practices.html#)
+# [Airflow Best Practices](https://airflow.apache.org/docs/apache-airflow/stable/best-practices.html)
 
 ## System Design Improvement of Airflow
 
