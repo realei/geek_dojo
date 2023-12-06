@@ -23,3 +23,13 @@ Q1: accourding to 4th item, where to story `file` and `config`?
 1. You should avoid writing the top level code which is not necessary to create Operators and build DAG relations between them.
 
 2. performance
+
+## Backend related part 
+
+### [Python序列化与反序列化详解（包括json和json模块详解）](https://blog.csdn.net/Hardworking666/article/details/112725423)
+
+* JSON - Javascript Object Notation
+
+* 对象序列化的结果一定是**字节数组**
+
+* Youtube Video: [Python Tutorial: Working with JSON Data using the json Module](https://www.youtube.com/watch?v=9N6a-VLBa2I)
