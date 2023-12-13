@@ -16,6 +16,8 @@
 
 Subsets, combinations, and permutations are concepts of different nature. Subsets and combinations are **unordered**, while permutations are related to **the order of elements**. For example, [1, 2] and [2, 1] are the same combination (subset), but [1, 2] and [2, 1] are two different permutations!! Therefore, these are classified into two categories of problems.
 
+Note: 这类题目一定要分清楚英文里面，subsets, combinations, permutations的区别，尤其是在live coding interview跟母语者面试的时候
+
 ### Subsets 子集类问题
 
 1. [78. Subsets](https://leetcode.com/problems/subsets/description/)
