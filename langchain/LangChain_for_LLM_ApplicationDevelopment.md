@@ -12,8 +12,18 @@
 
     - Prompt template: `from langchain.prompts import ChatPromptTemplate`
 
-    - ``
+    - Parsers: `from langchain.output_parsers import ResponseSchema`
+            `from langchain.output_parsers import StructuredOutputParser`
+
+* LangChain output parsing works with prompt templates
+    - Chain of Thought Reasoning (Using ReAct Framework)
+
+    - ![LangChain output parsing works with prompt templates](./langchain_output_parsing.png)
 
 * Vocabularies:
 
     - English pirate language
+
+* Term:
+
+    - downstream processing
