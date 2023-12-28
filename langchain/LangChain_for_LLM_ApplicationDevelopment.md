@@ -27,3 +27,24 @@
 * Term:
 
     - downstream processing
+
+
+## Memory
+
+LangChain offers multiple sophisticated options of manageing these memories.....
+
+    - ConversationBufferMemory
+
+    - ConversationBufferWindowMemory
+
+    - ConversationTokenBufferMemory
+
+    - ConversationSummaryMemory
+
+![memory types](./memory_types.png)
+
+![additional mem](./additional_memory_types.png)
+
+* Vocabularies:
+
+    - utterance
