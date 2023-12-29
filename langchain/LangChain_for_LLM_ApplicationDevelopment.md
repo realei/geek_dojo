@@ -141,3 +141,19 @@ Now that we's got this index, we can use it during runtime to find the pieces of
 These are then returned, and we canpass those in the prompt to the LLM to get back a final answer.
 
 ![Vector Database II](./vector_database_ii.png)
+
+* Stuff method 
+
+![Stuff Method](./stuff_method.png)
+
+* 3 additional methods 
+
+    - 1. Map reduce
+
+    - 2. Refine
+
+    - 3. Map rerank
+
+The most common of these methods is the "stuff method", the second most common is the "Map Reduct" method, which takes these chunks and sends them to the language model.
+
+![3 additional methods](./3_additional_methods.png)
