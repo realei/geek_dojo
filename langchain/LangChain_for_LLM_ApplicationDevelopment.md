@@ -93,3 +93,51 @@ The chain usually combines an LLM together with a prompt, and with this building
 
 
 ## Q&A over Documents
+
+**Keywords:** flexible and adaptable; proprietary data
+
+Combine the LLM with data that they weren't originally trained on. So it makes them much more flexible and adaptable to your use case. 
+
+It is also very exciting because we'll start to move beyond language models, prompts, and output parsers and start introducing some more of the key components of LangChain, such as **embedding models** and **vector stores**.
+
+```
+from langchain.chains import RetrievalQA
+from langchain.chat_models import ChatOpenAI
+from langchain.document_loaders import CSVLoader
+from langchain.vectorstores import DocArrayInMemorySearch
+from IPython.display import display, Markdown
+```
+
+* `RetrievalQA`: This chain will do retrieval over some documents.
+
+* `document_loaders -> CSVLoader`: This is going to be used to load some proprietary data that we're going to combine with the language model.
+
+* `vectorstores`
+
+* `from langchain.indexes import VectorstoreIndexCreator`: This will help us create a vector store really easy.
+
+### LLM's on Documents
+
+* Key Issue: LLM's can only inspect a few thousand words at a time.
+
+This is where embeddings and vector stores come into play.
+
+* Embeddings:
+
+    - Embeddings vector captures content/meaning
+
+    - Text with similar content will have similar vectors
+
+* Vector Database:
+
+A vector database is a way to store these vector representations that we created in the previous step. The way that we create this vector database is we populate it with **chunks of text**, coming from incoming documents. When we get a big incoming document, we're first going to break it up into smaller chunks. This helps create pieces of text that are smaller than original document, which is useful because we may not be able to pass the whole document to the language model. So we want to create these small chunks, we can only pass the most relevant ones to the language model.
+
+We then create an embedding for each of these chunks, and we store those in a vector database. TThat's what happens when we create the index. 
+
+Now that we's got this index, we can use it during runtime to find the pieces of text most relevant to an incoming query. When a query comes in, we first create an embeddings for that query. We then compare it to all vectors in the vector database, and we pick the 'n' most similar.
+
+![Vector Database](./vector_database.png)
+
+These are then returned, and we canpass those in the prompt to the LLM to get back a final answer.
+
+![Vector Database II](./vector_database_ii.png)
