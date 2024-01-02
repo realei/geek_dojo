@@ -1,10 +1,10 @@
-# [LangChain for LLM Application Development](https://learn.deeplearning.ai/langchain/lesson/1/introduction)
+# [LangChain for LLM Application Development](https./images//learn.deeplearning.a./images/langchai./images/lesso./images/./images/introduction)
 
 ## Models, Prompts and Output Parsers
 
 * Why Use Prompt Templates?
 
-    - ![why Use Prompt Templates](./why_use_prompt_templates.png)
+    - ![why Use Prompt Templates](./images/why_use_prompt_templates.png)
 
 * LangChain APIs:
 
@@ -18,7 +18,7 @@
 * LangChain output parsing works with prompt templates
     - Chain of Thought Reasoning (Using ReAct Framework)
 
-    - ![LangChain output parsing works with prompt templates](./langchain_output_parsing.png)
+    - ![LangChain output parsing works with prompt templates](./images/langchain_output_parsing.png)
 
 * Vocabularies:
 
@@ -41,9 +41,9 @@ LangChain offers multiple sophisticated options of manageing these memories.....
 
     - ConversationSummaryMemory
 
-![memory types](./memory_types.png)
+![memory types](./images/memory_types.png)
 
-![additional mem](./additional_memory_types.png)
+![additional mem](./images/additional_memory_types.png)
 
 * Vocabularies:
 
@@ -55,19 +55,19 @@ The chain usually combines an LLM together with a prompt, and with this building
 
 * Sequential Chains
 
-![Sequential Chains](./sequential_chains.png)
+![Sequential Chains](./images/sequential_chains.png)
 
     -  Simple Sequential Chain
 
-    ![Simple Sequential Chain](./simple_sequential_chain.png)
+    ![Simple Sequential Chain](./images/simple_sequential_chain.png)
 
     - Sequential Chain
 
-    ![Sequential Chain](./sequential_chain-detail.png)
+    ![Sequential Chain](./images/sequential_chain-detail.png)
 
 * Router Chain
 
-![Router Chain](./router_chain.png)
+![Router Chain](./images/router_chain.png)
 
 * Vocabulary:
 
@@ -124,7 +124,7 @@ This is where embeddings and vector stores come into play.
 
 * Embeddings:
 
-    - Embeddings vector captures content/meaning
+    - Embeddings vector captures conten./images/meaning
 
     - Text with similar content will have similar vectors
 
@@ -136,15 +136,15 @@ We then create an embedding for each of these chunks, and we store those in a ve
 
 Now that we's got this index, we can use it during runtime to find the pieces of text most relevant to an incoming query. When a query comes in, we first create an embeddings for that query. We then compare it to all vectors in the vector database, and we pick the 'n' most similar.
 
-![Vector Database](./vector_database.png)
+![Vector Database](./images/vector_database.png)
 
 These are then returned, and we canpass those in the prompt to the LLM to get back a final answer.
 
-![Vector Database II](./vector_database_ii.png)
+![Vector Database II](./images/vector_database_ii.png)
 
 * Stuff method 
 
-![Stuff Method](./stuff_method.png)
+![Stuff Method](./images/stuff_method.png)
 
 * 3 additional methods 
 
@@ -156,4 +156,47 @@ These are then returned, and we canpass those in the prompt to the LLM to get ba
 
 The most common of these methods is the "stuff method", the second most common is the "Map Reduct" method, which takes these chunks and sends them to the language model.
 
-![3 additional methods](./3_additional_methods.png)
+![3 additional methods](./images/3_additional_methods.png)
+
+## Evaluation (Evaluating LLM Applications)
+
+- Example generation
+
+- Manual evaluation (and debuging)
+
+- LLM-assisted evaluation
+
+- LangChain evaluation platform
+
+* Steps after create a Q & A App
+
+    - First figure out what are some data points that we want to evaluate it on? there are a few methods: 
+        * 1. the most simple which is basically we're goint to come up with data points that we think are good examples ourselves.
+
+        * 2. automatic
+
+* LangChain evaluation platform
+
+* Vocabulary:
+
+    - holistic
+
+    - heuristic
+
+## Agents
+
+LLM: Knowledge Store ---> Reasoning Engine
+
+* LangChain Tools:
+
+    - `llm-math`
+
+    - `wikipedia`
+
+    - `PythonREPLTool`
+
+* ReAct: a prompting strategy that elicits better thoughts from a language model.
+
+* Vocabulary:
+
+    - elicit
