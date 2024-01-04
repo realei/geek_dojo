@@ -97,3 +97,9 @@ Most vector databases support metadata filters, so this doesn't require any new 
     - TF-IDF
 
     - SVM
+
+## Question Answering
+
+* Vocabulary:
+
+    - low variability, highest fidelity, and most reliable answers 
