@@ -49,6 +49,8 @@ LangChain offers multiple sophisticated options of manageing these memories.....
 
     - utterance
 
+    - flush
+
 ## Chains
 
 The chain usually combines an LLM together with a prompt, and with this building block you can also put a bunch of these building blocks together to carry out a sequence of operations on your text or on your other data.
@@ -59,11 +61,11 @@ The chain usually combines an LLM together with a prompt, and with this building
 
     -  Simple Sequential Chain
 
-    ![Simple Sequential Chain](./images/simple_sequential_chain.png)
+![Simple Sequential Chain](./images/simple_sequential_chain.png)
 
     - Sequential Chain
 
-    ![Sequential Chain](./images/sequential_chain-detail.png)
+![Sequential Chain](./images/sequential_chain-detail.png)
 
 * Router Chain
 
