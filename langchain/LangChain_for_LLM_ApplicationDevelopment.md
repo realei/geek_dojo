@@ -134,13 +134,13 @@ This is where embeddings and vector stores come into play.
 
 A vector database is a way to store these vector representations that we created in the previous step. The way that we create this vector database is we populate it with **chunks of text**, coming from incoming documents. When we get a big incoming document, we're first going to break it up into smaller chunks. This helps create pieces of text that are smaller than original document, which is useful because we may not be able to pass the whole document to the language model. So we want to create these small chunks, we can only pass the most relevant ones to the language model.
 
-We then create an embedding for each of these chunks, and we store those in a vector database. TThat's what happens when we create the index. 
+We then create an embedding for each of these chunks, and we store those in a vector database. That's what happens when we create the index. 
 
 Now that we's got this index, we can use it during runtime to find the pieces of text most relevant to an incoming query. When a query comes in, we first create an embeddings for that query. We then compare it to all vectors in the vector database, and we pick the 'n' most similar.
 
 ![Vector Database](./images/vector_database.png)
 
-These are then returned, and we canpass those in the prompt to the LLM to get back a final answer.
+These are then returned, and we can pass those in the prompt to the LLM to get back a final answer.
 
 ![Vector Database II](./images/vector_database_ii.png)
 
