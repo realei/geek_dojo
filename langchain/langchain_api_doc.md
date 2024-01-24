@@ -25,3 +25,15 @@
             - 函数 （Function Calling) 描述 --- 这对于 llm 非常重要， llm 用函数描述来识别函数 （Function Calling) 是否适合回答用户的请求。
             
             - `Chains` -> `Tools` -> `Agent`
+
+## LangChain's Chains
+
+* Chains
+
+    - LCEL Chains (LangChain Expression Language --- LCEL)
+
+    - Legacy Chains
+
+## LangChain's example:  [Tool use](https://python.langchain.com/docs/use_cases/tool_use/)
+
+    * [Create a custom tool](https://python.langchain.com/docs/modules/agents/tools/)    
