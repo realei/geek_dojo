@@ -12,8 +12,16 @@
         
         * Questions Ref: [Agent Types](https://python.langchain.com/docs/modules/agents/agent_types) 
 
-        * [一文学会 OpenAI 的函数调用功能 Function Calling](https://zhuanlan.zhihu.com/p/641239259)
+        * [LangChain之Chain为何物](https://zhuanlan.zhihu.com/p/634313377)
 
+            - PromptTemplate
+
+            - 模型（LLM或ChatModel）
+
+            - OutputParser（输出解析器，可选）
+
+        * [一文学会 OpenAI 的函数调用功能 Function Calling](https://zhuanlan.zhihu.com/p/641239259)
+            
             - 函数 （Function Calling) 描述 --- 这对于 llm 非常重要， llm 用函数描述来识别函数 （Function Calling) 是否适合回答用户的请求。
             
             - `Chains` -> `Tools` -> `Agent`
