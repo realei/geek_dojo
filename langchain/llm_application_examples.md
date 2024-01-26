@@ -7,3 +7,15 @@
 ## List of free API for building DEMO App
 
 * [Free Weather API](https://open-meteo.com/)
+
+## Affiliate Marketing Resources
+
+### General Knowledge
+
+* [What Is Affiliate Marketing? Everything You Need to Know in 2024](https://www.shopify.com/blog/affiliate-marketing)
+
+* [https://www.shopify.com/blog/53669701-how-to-set-up-an-affiliate-program-for-your-shopify-store](https://www.shopify.com/blog/53669701-how-to-set-up-an-affiliate-program-for-your-shopify-store)
+
+* [45 Best Affiliate Programs for Marketers and Creators (2024)](https://www.shopify.com/blog/best-affiliate-programs)
+
+* [The 15 Best High-Ticket Affiliate Marketing Programs](https://www.shopify.com/blog/high-ticket-affiliate-programs)
