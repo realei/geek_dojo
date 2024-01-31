@@ -8,6 +8,12 @@
 
 * [Free Weather API](https://open-meteo.com/)
 
+* [Skyscanner travel](https://developers.skyscanner.net/docs/intro)
+
+* [Google Fiance API](https://serpapi.com/dashboard)
+
+* [LangChain Google Fiance Tool](https://python.langchain.com/docs/integrations/tools/google_finance)
+
 ## Affiliate Marketing Resources
 
 ### General Knowledge
