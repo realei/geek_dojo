@@ -15,3 +15,7 @@
     from langchain_core.tools import tool
 
     ```
+    
+    REF:
+
+    https://python.langchain.com/docs/contributing/code
