@@ -37,3 +37,17 @@
     Answer:
 
     - [Langchain Opensource code for `core/community/langchain`](https://github.com/langchain-ai/langchain/tree/master/libs)
+
+## LangChain's Sourcecode
+
+* Python Libries:
+
+    - Pydantic
+
+        * [【2.1】Pydantic使用方法](https://blog.csdn.net/Chimengmeng/article/details/133648966)
+
+        * What is being used in LangChain:
+
+            - BaseModel
+
+            - Field
