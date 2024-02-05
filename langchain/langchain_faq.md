@@ -38,6 +38,10 @@
 
     - [Langchain Opensource code for `core/community/langchain`](https://github.com/langchain-ai/langchain/tree/master/libs)
 
+* Q3: what is `runnable` datatype? Does `agent` is a `runnable` datatype?
+
+    - Source code: `/Users/wanglei/github/langchain/libs/langchain/langchain/agents/openai_tools/base.py`
+
 ## LangChain's Sourcecode
 
 * Python Libries:
