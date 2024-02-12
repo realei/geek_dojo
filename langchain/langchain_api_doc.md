@@ -49,3 +49,11 @@
     - sourcecode: `/Users/wanglei/github/langchain/libs/core/langchain_core/runnables/base.py`
 
     - [runnable protocol](https://python.langchain.com/docs/expression_language/interface)
+
+        * [Streaming with LangChain](https://python.langchain.com/docs/expression_language/streaming)
+
+        * [Runnable --- "How To"](https://python.langchain.com/docs/expression_language/how_to/)
+
+## Best practices
+
+* [LangChain ChatBot Best Practice](https://python.langchain.com/docs/use_cases/chatbots/)
