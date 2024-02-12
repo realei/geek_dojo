@@ -48,4 +48,4 @@
 
     - sourcecode: `/Users/wanglei/github/langchain/libs/core/langchain_core/runnables/base.py`
 
-    - [runnable protocol](https://python.langchain.com/docs/expression_language/interface#:~:text=The%20Runnable%20protocol%20is%20implemented,the%20chain%20on%20an%20input)
+    - [runnable protocol](https://python.langchain.com/docs/expression_language/interface)
