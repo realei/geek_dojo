@@ -42,6 +42,11 @@
 
     - Source code: `/Users/wanglei/github/langchain/libs/langchain/langchain/agents/openai_tools/base.py`
 
+## LangChain's Chain
+
+* Q1: What are the differences between `from langchain.chains import ConversationChain` and `LLMChain`?
+
+* Q2: What are the differences between these two `ChatOpenAI` classes? `from langchain.chat_models import ChatOpenAI' -- `from langchain_openai import ChatOpenAI`
 ## LangChain's Sourcecode
 
 * Python Libries:
