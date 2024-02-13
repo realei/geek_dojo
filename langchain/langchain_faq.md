@@ -42,6 +42,9 @@
 
     - Source code: `/Users/wanglei/github/langchain/libs/langchain/langchain/agents/openai_tools/base.py`
 
+* Q4: How to `rum custom functions`? what are the  differences between using `RunnableLambda` and `tools`?
+
+
 ## LangChain's Chain
 
 * Q1: What are the differences between `from langchain.chains import ConversationChain` and `LLMChain`?
