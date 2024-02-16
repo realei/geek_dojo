@@ -57,3 +57,18 @@
 ## Best practices
 
 * [LangChain ChatBot Best Practice](https://python.langchain.com/docs/use_cases/chatbots/)
+
+## Backend Solutions
+
+### Django
+
+* [Django架构中MVC模式的解析](https://blog.csdn.net/yolo2016/article/details/113850717)
+
+* [【Django Channels】概述篇](https://blog.csdn.net/weixin_46114766/article/details/128633503?spm=1001.2014.3001.5501)
+
+### Network Solutions:
+
+* [Langchain/Openai Streaming 101 in Python](https://medium.com/llm-projects/langchain-openai-streaming-101-in-python-edd60e84c9ca)
+
+* [Building a Realtime Chat App with Django Channels and WebSockets](https://www.honeybadger.io/blog/django-channels-websockets-chat/)
+
