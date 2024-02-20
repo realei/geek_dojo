@@ -72,3 +72,6 @@
 
 * [Building a Realtime Chat App with Django Channels and WebSockets](https://www.honeybadger.io/blog/django-channels-websockets-chat/)
 
+### Python
+
+* [python 异步 async/await](https://blog.csdn.net/qq_43380180/article/details/111573642)
