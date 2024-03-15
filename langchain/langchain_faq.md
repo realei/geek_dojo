@@ -44,12 +44,18 @@
 
 * Q4: How to `rum custom functions`? what are the  differences between using `RunnableLambda` and `tools`?
 
+* Q5: Does `Retrieval` could be a `tool`?
+
+    Yes, it coule be wrapped as a tool with `from langchain.tools.retriever import create_retriever_tool`
+
 
 ## LangChain's Chain
 
 * Q1: What are the differences between `from langchain.chains import ConversationChain` and `LLMChain`?
 
 * Q2: What are the differences between these two `ChatOpenAI` classes? `from langchain.chat_models import ChatOpenAI' -- `from langchain_openai import ChatOpenAI`
+
+
 ## LangChain's Sourcecode
 
 * Python Libries:
@@ -63,3 +69,12 @@
             - BaseModel
 
             - Field
+
+
+## LangChian ReAct:
+
+* [ReAct: Synergizing Reasoning and Acting in Language Models](https://react-lm.github.io/)
+
+  - reasoning (e.g. chain-of-thought prompting): : reasoning traces help the model induce, track, and update action plans as well as handle exceptions
+
+  - acting (e.g. action plan generation): actions allow it to interface with external sources, such as knowledge bases or environments, to gather additional information. 
